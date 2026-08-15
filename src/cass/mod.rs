@@ -4,6 +4,7 @@
 
 pub mod brenner;
 pub mod client;
+mod decode;
 pub mod mining;
 pub mod quality;
 pub mod refinement;
