@@ -1,13 +1,13 @@
 [package]
 name = "ms"
-version = "0.2.1"
+version = "0.2.1-klittle.1"
 edition = "2024"
 resolver = "2"
 authors = ["Jeffrey Emanuel <jeff@jeffreyemanuel.dev>"]
 description = "Meta Skill - Mine CASS sessions to generate Claude Code skills"
 license = "MIT"
-repository = "https://github.com/Dicklesworthstone/meta_skill"
-homepage = "https://github.com/Dicklesworthstone/meta_skill"
+repository = "https://github.com/klittle32/meta_skill"
+homepage = "https://github.com/klittle32/meta_skill"
 keywords = ["cli", "skills", "ai", "claude", "cass"]
 categories = ["command-line-utilities", "development-tools"]
 readme = "README.md"

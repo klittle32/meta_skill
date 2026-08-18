@@ -13,7 +13,10 @@ use crate::updater::{
 use serde_json;
 
 /// Default repository for updates.
-const DEFAULT_REPO: &str = "Dicklesworthstone/meta_skill";
+///
+/// This fork must never pull official Dicklesworthstone release assets.
+/// Official `ms update` would overwrite the cass-export decoder.
+const DEFAULT_REPO: &str = "klittle32/meta_skill";
 
 #[derive(Args, Debug)]
 #[command(disable_version_flag = true)]
